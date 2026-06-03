@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #d9edf7;
+    --secondary-color: #005f73;
+    --accent-color: #ffffff;
+    --text-color: #000000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +15,7 @@ body {
     font-family: Arial, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
+    color: var(--text-color);
 }
 
 header {
@@ -124,15 +132,15 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #d9edf7;
+    background-color: var(--primary-color);
 }
 
-.sociallinks {
+.socialmedia {
     display: flex;
     gap: 10px;
 }
 
-.sociallinks img {
+.socialmedia img {
     width: 30px;
     height: 30px;
 }

@@ -22,7 +22,7 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
-    background-color: #d9edf7;
+    background-color: var(--primary-color);
     padding: 20px;
 }
 

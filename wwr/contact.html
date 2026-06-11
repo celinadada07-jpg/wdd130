@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-      content="Contact White Water Rafting for reservations, questions, and rafting adventure information.">
+      content="Contact White Water Rafting for reservations, questions, trip information, and rafting adventure details.">
     <meta name="author" content="Celina Gomba">
     <title>Contact Us | White Water Rafting</title>
+
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -15,6 +16,7 @@
 
     <header>
         <img src="images/logo.png" alt="White Water Rafting Company Logo">
+
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -23,114 +25,116 @@
         </nav>
     </header>
 
-    <section class="contact-info">
-        <h2>Company Information</h2>
-        <p><strong>Address:</strong> 123 River Adventure Road, Idaho Falls, ID 83401</p>
-        <p><strong>Phone:</strong> (208) 555-1234</p>
-        <p><strong>Email:</strong> info@whitewaterrafting.com</p>
-
-
+    < </div>
         <main>
 
-            <h1 class="contact-title">White Water Rafting Company</h1>
+            ```
+            <h1>White Water Rafting Company</h1>
 
             <section class="company-info">
-                <p>123 Main River Street</p>
-                <p>Kolob, California</p>
-                <p>+1 999 999 9999</p>
-                <p>info@whitewater.com</p>
+                <h2>Contact Information</h2>
+                <p>Address: 123 River Adventure Road, Idaho Falls, Idaho</p>
+                <p>Phone: +1 (208) 555-1234</p>
+                <p>Email: info@whitewaterrafting.com</p>
             </section>
 
+            <section class="contact-container">
 
-            <div class="contact-container">
-
-                <!-- Left Side: Google Map -->
-                <section class="map">
+                <div class="map">
+                    <h2>Our Location</h2>
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d197982.8168159007!2d-112.07678432906411!3d43.514336540477544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1781122751148!5m2!1sen!2sng"
-                      allowfullscreen=" loading=" lazy"
-                      referrerpolicy="no-referrer-when-downgrade">" loading="lazy">
-                    </iframe>
-                </section>
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d197982.8168159007!2d-112.07678432906411!3d43.514336540477544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1781122751148!5m2!1sen!2sng" " allowfullscreen="" loading="
+                      lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </>
+    </div>
 
+    <div class="contact-form">
+        <h2>Send Us a Message</h2>
 
-                <!-- Right Side: Contact Form -->
-                <section class="contact-form">
-                    <form>
+        <form>
 
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
 
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
 
-                        <label>Message Purpose</label>
-                        <div class="radio-group">
-                            <label><input type="radio" name="purpose" value="general"> General
-                                Inquiry</label>
-                            <label><input type="radio" name="purpose" value="reservation">
-                                Reservation Question</label>
-                            <label><input type="radio" name="purpose" value="suggestion"> Website
-                                Suggestion</label>
-                        </div>
+            <div class="radio-group">
+                <p>Purpose of Message:</p>
 
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5"
-                          placeholder="Type here"></textarea>
+                <label for="general">
+                    <input type="radio" id="general" name="purpose" value="general">
+                    General Inquiry
+                </label>
 
-                        <label for="newsletter">
-                            <input type="checkbox" id="newsletter" name="newsletter">
-                            Please Subscribe me to the monthly newsletter
-                        </label>
+                <label for="reservation">
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
 
-                        <button type="submit">Get in Touch!</button>
-
-                    </form>
-                </section>
-
+                <label for="suggestion">
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
             </div>
-            <section class="employees">
 
-                <h2>We Are Here to Serve You</h2>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
 
-                <div class="employee-profiles">
+            <label class="checkbox" for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                Please subscribe me to the monthly newsletter
+            </label>
 
-                    <figure>
-                        <img src="images/employee1.jpg" alt="River Guide">
-                        <figcaption>John Smith – Senior River Guide</figcaption>
-                    </figure>
+            <button type="submit">Send Message</button>
 
-                    <figure>
-                        <img src="images/employee2.jpg" alt="Operations Manager">
-                        <figcaption>Sarah Johnson – Trip Coordinator</figcaption>
-                    </figure>
+        </form>
+    </div>
 
-                    <figure>
-                        <img src="images/employee3.jpg" alt="Customer Support">
-                        <figcaption>Olivia Martinez – Customer Service Representative</figcaption>
-                    </figure>
+    </section>
 
-                </div>
+    <section class="employees">
 
-            </section>
+        <h2>Meet Our Team</h2>
 
-        </main>
+        <div class="employee-profiles">
 
-        <footer>
-            <p>© 2026 White Water Rafting | Celina Gomba </p>
+            <figure>
+                <img src="images/employee1.jpg" alt="River Guide">
+                <figcaption>John Smith - River Guide</figcaption>
+            </figure>
 
-            <nav class="socialmedia">
-                <a href="#"><img src="images/facebook.png" alt="Facebook">
-                </a>
+            <figure>
+                <img src="images/employee2.jpg" alt="Operations Manager">
+                <figcaption>Sarah Johnson - Operations Manager</figcaption>
+            </figure>
 
-                <a href="#"><img src="images/instagram.jpg" alt="Instagram">
-                </a>
+            <figure>
+                <img src="images/employee3.jpg" alt="Customer Support Manager">
+                <figcaption>Michael Brown - Customer Support Manager</figcaption>
+            </figure>
 
-                <a href="#"><img src="images/twitter.png" alt="Twitter">
-                </a>
-            </nav>
-        </footer>
+        </div>
 
+    </section>
+    ```
+
+    </main>
+
+    <footer>
+        <p>© 2026 White Water Rafting | Celina Gomba</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.jpg" alt="Instagram icon">
+            </a>
+            <a href="https://x.com">
+                <img src="images/twitter.png" alt="Twitter icon">
+            </a>
+        </nav>
+    </footer>
 </body>
 
-</html>
+</html
